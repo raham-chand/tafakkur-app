@@ -1,0 +1,7 @@
+dart lib/data/scraper.dart
+
+flutter run -d chrome
+flutter build apk --split-per-abi
+
+flutter clean
+flutter build apk --release
